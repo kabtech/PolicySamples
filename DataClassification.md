@@ -9,4 +9,5 @@ The data classification system is based on the principle of least privilege. Thi
 |Security Controls|None|-- encryption at rest<br>-- Systems protected from direct access by external systems via firewall* |-- end-to-end encryption<br>-- Systems protected from direct access by external systems via a firewall in the DMZ* |
 |Transmission Controls|None|Data at this level that is transmitted to external parties must be encrypted* |Data at this level must be encrypted (internal network or outside the Company network)* |
 |Storage|-- plain text<br>-- backup is recommended|-- encryption at rest at disk/media level<br>-- backup is required* |-- encryption at rest at disk/media and file level<br>encrypted backup at off-site storage is required* <br>-- physical media must be reformatted before re-use* |
+
 \* applies unless there is an approved exception or a waiver has been issued.
